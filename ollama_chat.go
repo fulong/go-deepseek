@@ -10,7 +10,7 @@ import (
 	deepseek "github.com/p9966/go-deepseek/internal"
 )
 
-var ollamaChatCompletionSuffix = "/api/chat"
+var ollamaChatCompletionSuffix = "/v1/chat/completion"
 
 type OllamaChatRequest struct {
 	Model     string              `json:"model"`
